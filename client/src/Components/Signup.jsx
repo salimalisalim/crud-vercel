@@ -21,7 +21,7 @@ function Signup() {
   const handleSubmit = (e) => {
   e.preventDefault();
   setLoading (true);
-  axios.post('http://localhost:5000/register', { childName, email, password })
+  axios.post('https://crud-vercel-n94pklfps-salimalisalim.vercel.app/register', { childName, email, password })
     .then(result => {
       console.log(result);
 
