@@ -57,7 +57,7 @@ const handleCloseAlert1 = () => setShowAlert1(false);
 
 const getServerResponse = async()=>{
 
-  const res = await axios.get('http://localhost:5000/');
+  const res = await axios.get('https://crud-vercel-nine.vercel.app/');
 
   console.log("Server response ------------------>", res.data);
 
