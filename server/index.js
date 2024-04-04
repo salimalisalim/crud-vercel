@@ -12,9 +12,9 @@ require('dotenv').config();
 
 app.use(cors(
   {
-    origin:"https://crud-vercel-frontend.vercel.app/",
-    credentials: true
-    
+    origin: 'https://crud-vercel-frontend.vercel.app',
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    allowedHeaders: 'Content-Type,Authorization',
   }
 ));
 
