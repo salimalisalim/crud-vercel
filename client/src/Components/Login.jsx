@@ -21,7 +21,7 @@ function Login() {
   
     setLoading(true);
 
-  axios.post('https://crud-vercel-n94pklfps-salimalisalim.vercel.app/login', { email, password })
+  axios.post('https://crud-vercel-crud-backend.vercel.app/login', { email, password })
   .then(result => {
     console.log(result);
 
