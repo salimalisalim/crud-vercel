@@ -12,8 +12,10 @@ require('dotenv').config();
 
 app.use(cors(
   {
-    origin:true,
-    credentials: true
+    origin: 'https://crud-vercel-frontend.vercel.app',
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    allowedHeaders: 'Content-Type,Authorization',
+    credentials:true
     
   }
 ));
@@ -169,7 +171,7 @@ app.post('/register', (req, res) => {
 
 app.get("/", (req,res)=>{
 
-  res.send("Root route is working!!!!!!!!!!");
+  res.send("Root route is working22222!!!!!!!!!!");
 
 })
 
