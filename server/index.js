@@ -12,7 +12,7 @@ require('dotenv').config();
 
 app.use(cors(
   {
-    origin:"http://localhost:3000https://crud-vercel-react-frontend.vercel.app/",
+    origin:"https://crud-vercel-frontend.vercel.app/",
     credentials: true
     
   }
