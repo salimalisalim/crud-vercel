@@ -1,0 +1,202 @@
+.logo-img{
+    
+    margin-left: 70px;
+    height: 60px;
+    width: 70px;
+ 
+ }
+ 
+ .login-form{
+ 
+     margin-left: 30%;
+     margin-right: 30%;
+     margin-top: 160px;
+     margin-bottom: 200px;
+     
+ }
+ .profile-heading{
+   font-size: 60px;
+   
+
+ }
+ .profile-creation-form{
+      
+     margin-left: 10%;
+     margin-top: 80px;
+     margin-bottom: 80px;
+     margin-right: 30px;
+
+ }
+ @media (max-width: 1100px){
+    .profile-creation-form{
+        margin-left: 7%;
+    }
+ }
+
+ .container{
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px 2px rgba(255, 255, 255, 0.3);
+    text-align: center;
+ }
+ @media screen and (max-width: 1000px){
+    .container{
+      width: 70%;
+    }
+ }
+ .profile-info{
+    font-size: larger;
+ }
+ .edit-mode{
+    font-size: large;
+    margin-left: 20px;
+    margin-right: 10px;
+ }
+
+ @media screen and (max-width: 400px){
+    body{
+        width: fit-content;
+        
+    }
+ }
+
+
+ .signup-login-btn{
+    
+     margin-left: 40%;
+     margin-top: 10px;
+     border-color: white;
+     width: 100px;
+     font-size: large;
+     
+ }
+  
+ @media (max-width: 1000px){
+    .col-lg-4{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+ }
+ 
+ 
+ @media (max-width: 900px){
+    .col-lg-4{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .profile-creation-form{
+        margin-left: 30%;
+    }
+ }
+ @media (max-width: 600px){
+    .profile-creation-form{
+        margin-left: 20%;
+    }
+ }
+ @media (max-width: 400px){
+    .profile-creation-form{
+        margin-left: 10%;
+    }
+ }
+ 
+ .input-box {
+ 
+     
+     margin-bottom: 25px;
+     width: 250px;
+     
+ 
+ }
+ .input-box-edit-mode{
+    margin-bottom: 25px;
+    width: 250px;
+    margin-left: 10px;
+ }
+ .radio-btn-edit-mode{
+    margin-left: 10px;
+    margin-right: 25px;
+ }
+ 
+
+  .register-btn{
+ 
+     border-color: white;
+     width: 100px;
+     font-size: large;
+ }
+ 
+ .edt-btn{
+ 
+     border-color: white;
+     width: 100px;
+     font-size: large;
+     margin-bottom: 30px;
+ } 
+ .dlt-btn{
+ 
+     
+    border-color: white;
+    width: 100px;
+    font-size: large;
+    margin-bottom: 30px;
+    margin-left: 10px;
+ }
+ 
+ 
+ .save-btn{
+     border-color: white;
+     width: 100px;
+     font-size: large;
+     margin-bottom: 30px;
+ }
+ .cancel-btn{
+    border-color: white;
+    width: 100px;
+    font-size: large;
+    margin-bottom: 30px;
+    margin-left: 10px;
+ } 
+ 
+ .logout-logo{
+    width: 40px;
+    height: 38px;
+    
+ }
+ 
+ .spinner-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7); 
+    color: rgb(131, 129, 129);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+
+ .help-container {
+     max-width: 600px;
+     margin-left: 10px;
+   }
+   
+   .faq-card {
+     margin-bottom: 10px;
+     cursor: pointer;
+   }
+   
+   .faq-question {
+     padding: 5px;
+     font-weight: bold;
+   }
+   
+   .faq-answer {
+     padding: 10px;
+   }
+  .signup-link{
+     color: white;
+  } 
+ 
+ 
