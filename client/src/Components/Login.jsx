@@ -21,7 +21,7 @@ function Login() {
   
     setLoading(true);
 
-  axios.post('https://crud-main-server.vercel.app/login', { email, password })
+  axios.post('http://localhost:5000/login', { email, password })
   .then(result => {
     console.log(result);
 
